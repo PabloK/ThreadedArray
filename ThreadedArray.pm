@@ -1,4 +1,3 @@
-#!/opt/SELIW/perl/threaded-5.16.1/bin/perl
 package ThreadedArray;
 
 use strict;
