@@ -1,10 +1,8 @@
 package ThreadedArray;
 
 use strict;
-use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
 use threads;
-use if $] eq "5.016001", lib => "/vobs/bsc/tools/apps/Set_RFM_label/ThreadedArray";
-use if $] eq "5.016001", lib => "/vobs/bsc/global_admin/scripts/lib";
+use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
 
 require Exporter;
 
