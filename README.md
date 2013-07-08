@@ -4,7 +4,7 @@ ThreadedArray
 ThreadedArray - Perl extension for quickly threading out work executed
 on an array of items, where the array is returned after work has been executed
 
-== USEAGE ==
+####USEAGE####
 
   use ThreadedArray;
   ThreadedArray::set_work_list(@some_array);
@@ -12,11 +12,11 @@ on an array of items, where the array is returned after work has been executed
   ThreadedArray::set_working_function(\&your_function,@your_arguments);
   my @result_array = ThreadedArray::get_result();
 
-== DESCRIPTION ==
+####DESCRIPTION####
 
   This module threads out work that needs to be executed on an array of items.
   It then returns the resulting array.
 
-== AUTHOR ==
+####AUTHOR####
 
   Pablo Karlsson, epabkar, Pablo.Karlsson@gmail.com
